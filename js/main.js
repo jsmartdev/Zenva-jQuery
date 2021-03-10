@@ -1,2 +1,4 @@
 /* eslint-disable */
-console.log("Hello world!");
+$(document).ready(function() {
+    $('body').html('<strong>Hello world!</strong>');
+});
